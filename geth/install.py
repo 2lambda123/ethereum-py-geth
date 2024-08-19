@@ -1,6 +1,7 @@
 """
 Install geth
 """
+
 from __future__ import (
     annotations,
 )
@@ -53,7 +54,7 @@ WINDOWS = "win32"
 # System utilities.
 #
 @contextlib.contextmanager
-def chdir(path: str) -> Generator[None, None, None]:
+def chdir(path: str) -> Generator[None]:
     original_path = os.getcwd()
     try:
         os.chdir(path)
