@@ -8,12 +8,12 @@ repos:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v3.17.0
+    rev: v3.18.0
     hooks:
     -   id: pyupgrade
         args: [--py38-plus]
 -   repo: https://github.com/psf/black
-    rev: 24.8.0
+    rev: 24.10.0
     hooks:
     -   id: black
 -   repo: https://github.com/PyCQA/flake8
@@ -38,7 +38,7 @@ repos:
         additional_dependencies:
         -   tomli  # required until >= python311
 -   repo: https://github.com/executablebooks/mdformat
-    rev: 0.7.17
+    rev: 0.7.18
     hooks:
     -   id: mdformat
         additional_dependencies:
