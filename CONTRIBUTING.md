@@ -8,19 +8,19 @@ $ git clone git@github.com:ethereum/py-geth.git
 
 # Cute Animal Pictures
 
-All pull requests need to have a cute animal picture.  This is a very important
+All pull requests need to have a cute animal picture. This is a very important
 part of the development process.
 
 # Pull Requests
 
-In general, pull requests are welcome.  Please try to adhere to the following.
+In general, pull requests are welcome. Please try to adhere to the following.
 
 - code should conform to PEP8 and as well as the linting done by flake8
 - include tests.
 - include any relevant documentation updates.
 - update the CHANGELOG to include a brief description of what was done.
 
-It's a good idea to make pull requests early on.  A pull request represents the
+It's a good idea to make pull requests early on. A pull request represents the
 start of a discussion, and doesn't necessarily need to be the final, finished
 submission.
 
