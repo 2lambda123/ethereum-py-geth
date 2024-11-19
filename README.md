@@ -31,7 +31,7 @@ To run geth connected to the mainnet
 >>> geth.start()
 ```
 
-Or in dev mode for testing.  These require you to give them a name.
+Or in dev mode for testing. These require you to give them a name.
 
 ```python
 >>> from geth import DevGethProcess
@@ -40,7 +40,7 @@ Or in dev mode for testing.  These require you to give them a name.
 ```
 
 By default the `DevGethProcess` sets up test chains in the default `datadir`
-used by `geth`.  If you would like to change the location for these test
+used by `geth`. If you would like to change the location for these test
 chains, you can specify an alternative `base_dir`.
 
 ```python
@@ -82,7 +82,7 @@ True
 ```
 
 When testing it can be nice to see the logging output produced by the `geth`
-process.  `py-geth` provides a mixin class that can be used to log the stdout
+process. `py-geth` provides a mixin class that can be used to log the stdout
 and stderr output to a logfile.
 
 ```python
@@ -129,7 +129,7 @@ Or from python using the `install_geth` function.
 ```
 
 The installed binary can be found in the `$HOME/.py-geth` directory, under your
-home directory.  The `v1.14.8` binary would be located at
+home directory. The `v1.14.8` binary would be located at
 `$HOME/.py-geth/geth-v1.14.8/bin/geth`.
 
 ## About `DevGethProcess`

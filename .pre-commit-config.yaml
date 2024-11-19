@@ -38,7 +38,7 @@ repos:
         additional_dependencies:
         -   tomli  # required until >= python311
 -   repo: https://github.com/executablebooks/mdformat
-    rev: 0.7.18
+    rev: 0.7.19
     hooks:
     -   id: mdformat
         additional_dependencies:
